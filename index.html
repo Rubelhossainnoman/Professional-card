@@ -49,6 +49,16 @@
             <button class="blue"><a href="https://developerrubel.com/contact-me/" target="_blank">Send Message</a></button>
             <button href="https://www.facebook.com/devsrubelhossain.me" class="orange"><a href="https://www.facebook.com/devsrubelhossain.me" target="_blank">Follow Me</a></button>
         </div>
+
+        <div style="text-align:center ;" id="clock"></div>
         
     </div>
+    <script>
+        setInterval(() => {
+            let date = new Date()
+            let clock = document.getElementById('clock')
+            clock.innerHTML = date;
+        },1000)
+    </script>
+</body>
 </html>
